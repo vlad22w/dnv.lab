@@ -1,0 +1,217 @@
+body {
+    background: 
+        linear-gradient(#1e3754, #1e3754) 0% 0% / 100% 50% no-repeat,
+        linear-gradient(#a8bade, #a8bade) 0% 100% / 100% 50% no-repeat;
+}
+
+
+
+.txt {
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+
+}
+
+
+
+
+.phot01 {
+    position: absolute;
+    top: 170px;
+    left: 325px; 
+}
+.phot01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; 
+  }
+  
+.phot01 img {
+    width: 400px;
+    height: 350px;
+    
+}
+.alps0 {
+    position: absolute;
+    top: 340px;
+    left: 440px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.phot02 {
+    position: absolute;
+    top: 530px;
+    left: 325px;
+}
+.phot02::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; 
+}
+.phot02 img {
+ width: 196px;
+ height: 160px;
+}
+.nepal0 {
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 390px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+
+
+
+.phot03 {
+    position: absolute;
+  top: 530px;
+  left: 530px;
+}
+.phot03 img {
+  width: 196px;
+  height: 160px;
+}
+.phot03::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1; 
+}
+.kenia0 {
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 590px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+
+
+
+
+.phot04 {
+    position: absolute;
+    top: 170px;
+    left: 735px
+}
+  .phot04 img {
+    width: 196px;
+    height: 160px;
+}
+.phot04::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1; 
+}
+.iceland0 {
+    position: absolute;
+    top: 240px;
+    left: 785px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+
+
+.phot05 {
+    position: absolute;
+    top: 170px;
+    left: 940px;
+}
+  .phot05 img {
+    width: 196px;
+    height: 160px;
+}
+.phot05::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; 
+}
+.ethiopia0 {
+    position: absolute;
+    top: 240px;
+    left: 985px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.phot06 {
+    position: absolute;
+    top: 340px;
+    left: 735px;
+}
+  .phot06 img {
+    width: 400px;
+    height: 350px;
+}
+.phot06::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; 
+}
+.newzeland0 {
+    position: absolute;
+    top: 500px;
+    left: 870px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+
+
+
+
