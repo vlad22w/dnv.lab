@@ -1,0 +1,476 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 17%,
+  rgba(180,193,184,1) 17%, rgba(180,193,184,1) 32%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 94%, rgba(180,193,184,1) 94%);
+
+}
+/* навігація */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+  
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+
+nav ul li a:hover {
+  color: rgba(0, 0, 255, 0.619);
+}
+
+
+
+.container1 {
+width: 70%;
+margin: auto;
+}
+
+
+/* Chapter 1 */
+
+.img-container1 img {
+  width: 100%;
+  border-radius: 40px;
+  filter: brightness(0.7)
+  
+}
+
+
+
+.text {
+  position: absolute;
+  top: 20px;
+  color: white;
+  padding: 0px 20px;
+  font-size: 60px;
+  letter-spacing: 2px;
+  
+}
+
+.undertext {
+  position: absolute;
+  top: 320px;
+  color: whitesmoke;
+  margin-left: 23px;
+  font-size: 15px;
+}
+
+
+.email1 {
+  position: absolute;
+  top: 400px;
+  padding: 13px;
+  margin-left: 20px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 16px; 
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.email1 input {
+  flex: 1; 
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  
+}
+
+.email1 button {
+  margin-left: 10px;
+  width: 100px; 
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.email1 button:active {
+  background-color: rgb(39, 39, 39);
+  transform: translateY(2px); 
+}
+
+
+
+ /* chapter 2 */
+/*  перші 3 фото */
+.container21 {
+  display: flex;
+  position: relative;
+  top: 70px;
+  margin-left: 340px;
+}
+
+.photo1 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.photo1 img {
+  height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo1 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo1 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+
+
+
+.photo2 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.photo2 img {
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo2 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo2 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+
+
+
+.photo3 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+  
+}
+
+.photo3 img {
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo3 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo3 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+
+
+
+
+
+/* другі 3 фото */
+.container22 {
+  display: flex;
+  position: relative;
+  top: 20px;
+  margin-left: 340px;
+  
+}
+
+
+.photo4 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.photo4 img {
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo4 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo4 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+.photo5 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.photo5 img {
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo5 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo5 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+.photo6 {
+  position: relative;
+  text-align: center;
+  margin: 70px;
+  
+}
+
+.photo6 img {
+   height: 160px;
+   width: 160px;
+   border-radius: 100px;
+   
+}
+
+.photo6 p {
+  color: black;
+  font-weight: bold;
+}
+
+.photo6 i {
+  color: rgba(32, 32, 32, 0.547);
+  font-style: normal;
+}
+
+
+
+
+/* chapter 3 */
+.container3 {
+  
+  padding: 30px;
+  
+}
+
+.container3 img {
+  width: 100%;
+  border-radius: 40px;
+  
+}
+
+.text3 {
+  position: relative;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+.undertext3 {
+  position: relative;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+/* chapter 4 */
+.cont-walp1 {
+display: flex;
+position: relative;
+top: 80px;
+left: 300px;
+}
+
+.cont-walp1 img {
+width: 329px;
+height: 250px;
+margin: 5px;
+}
+
+
+
+
+.cont-walp2 {
+display: flex;
+position: relative;
+top: 80px;
+left: 300px;
+}
+
+.cont-walp2 img {
+width: 329px;
+height: 250px;
+margin: 5px;
+}
+
+/* chapter 5 */
+
+.container5 {
+display: flex;
+}
+
+.container5 img {
+width: 480px;
+height: 500px;
+margin-top: 200px;
+margin-left: 300px;
+border-radius: 30px;
+
+}
+
+
+.text5 {
+margin-top: 200px;
+margin-left: 11px;
+padding: 20px;
+padding-bottom: 2px;
+background-color: rgba(229, 222, 236, 0.829);
+border-radius: 30px;
+width: 480px;
+}
+
+
+.text5 p {
+margin-top: 90px;
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+.text5 i {
+font-style: normal;
+font-size: 15px;
+}
+
+
+.text5 li {
+margin-top: 20px;
+font-weight: bold;
+}
+
+
+
+/* chapter 6 */
+.container6 {
+padding: 20px;
+
+}
+
+.container6 img {
+width: 100%;
+border-radius: 40px;
+
+}
+
+.text6 {
+position: relative;
+margin-top: 20px;
+color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: bold;
+letter-spacing: 2px;
+
+}
+
+.undertext6 {
+position: relative;
+margin-top: 10px;
+color: rgb(0, 0, 0);
+font-size: 13px;
+padding-bottom: 20px;
+}
+
+.container7 {
+margin-top: 100px;
+margin-left: 310px;
+margin-bottom: 50px;
+}
+
+
+.text7 {
+font-size: 40px;
+font-weight: bold;
+letter-spacing: 2px;
+margin-bottom: 20px;
+}
+
+.undertext7 {
+font-size: 13px;
+margin-bottom: 40px;
+}
+
+
+
+.form input {
+width: 300px;
+height: 35px;
+border-radius: 50px;
+margin: 10px;
+background-color: rgb(244, 244, 244);
+border: none;
+
+}
+
+.form button {
+color: whitesmoke;
+background-color: black;
+border: none;
+border-radius: 30px;
+width: 100px;
+height: 35px;
+}
+
+
+#name::placeholder {
+padding: 10px; 
+
+}
+
+#email::placeholder {
+padding: 10px; 
+
+}  
