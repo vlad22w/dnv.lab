@@ -3,9 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 17%,
-  rgba(180,193,184,1) 17%, rgba(180,193,184,1) 32%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 94%, rgba(180,193,184,1) 94%);
-
+background: linear-gradient(180deg, rgba(255,255,255,1) 16%, rgba(180,193,184,1) 16%, 
+rgba(180,193,184,1) 29%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 94%, rgba(180,193,184,1) 94%);
 }
 
 
@@ -39,77 +38,78 @@ nav ul li a:hover {
   height: 100%;
   width: 70%;
   margin: auto;
-  padding-bottom: 100px;
-  }
+}
+
+
   
   
   /* Chapter 1 */
   
-  .img-container1 img {
+.container1 img {
     width: 100%;
-    height: 700px;
-    border-radius: 40px;
-    filter: brightness(0.7)
-    
-  }
-  
-  
-  .text {
-    position: absolute;
-    top: 280px;
-    color: white;
-    padding: 0px 20px;
-    font-size: 60px;
-    letter-spacing: 2px;
-    
-  }
-  
-  .undertext {
-    position: absolute;
-    top: 350px;
-    color: whitesmoke;
-    margin-left: 23px;
-    font-size: 15px;
-  }
-  
-  
-  .email1 {
-    position: absolute;
-    top: 400px;
-    padding: 13px;
-    margin-left: 20px;
-    width: 400px;
-    height: 30px;
-    border: none;
-    border-radius: 16px; 
-    display: flex;
-    justify-content: space-between;
-    background-color: whitesmoke;
-  }
-  
-  .email1 input {
-    flex: 1; 
-    border: none;
+    height: 650px;
+    filter: brightness(0.8);
     border-radius: 30px;
-    padding: 5px;
-    
   }
   
-  .email1 button {
-    margin-left: 10px;
-    width: 100px; 
-    border: none;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-  }
+   
   
+.text {
+  position: absolute;
+  top: 280px;
+  color: white;
+  padding: 0px 20px;
+  font-size: 60px;
+  letter-spacing: 2px;
   
-  .email1 button:active {
-    background-color: rgb(39, 39, 39);
-    transform: translateY(2px); 
-  }
+}
+
+.undertext {
+  position: absolute;
+  top: 350px;
+  color: whitesmoke;
+  margin-left: 23px;
+  font-size: 15px;
+}
+
+
+.email1 {
+  position: absolute;
+  top: 400px;
+  padding: 13px;
+  margin-left: 20px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 16px; 
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.email1 input {
+  flex: 1; 
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  
+}
+
+.email1 button {
+  margin-left: 10px;
+  width: 100px; 
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.email1 button:active {
+  background-color: rgb(39, 39, 39);
+  transform: translateY(2px); 
+}
   
 
  /* chapter 2 */
@@ -117,11 +117,10 @@ nav ul li a:hover {
 .container21 {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .photo1 {
-  position: relative;
   text-align: center;
   margin: 70px;
 }
@@ -147,7 +146,6 @@ nav ul li a:hover {
 
 
 .photo2 {
-  position: relative;
   text-align: center;
   margin: 70px;
 }
@@ -173,7 +171,6 @@ nav ul li a:hover {
 
 
 .photo3 {
-  position: relative;
   text-align: center;
   margin: 70px;
   
@@ -205,12 +202,11 @@ nav ul li a:hover {
 .container22 {
   display: flex;
   justify-content: center;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 
 .photo4 {
-  position: relative;
   text-align: center;
   margin: 70px;
 }
@@ -233,7 +229,6 @@ nav ul li a:hover {
 }
 
 .photo5 {
-  position: relative;
   text-align: center;
   margin: 70px;
 }
@@ -256,7 +251,6 @@ nav ul li a:hover {
 }
 
 .photo6 {
-  position: relative;
   text-align: center;
   margin: 70px;
   
@@ -285,19 +279,18 @@ nav ul li a:hover {
 /* chapter 3 */
 .container3 {
   width: 70%;
-  padding: 30px;
-  margin-left: 200px;
+  margin: 0 auto;
   padding-bottom: 170px;
 }
 
 .container3 img {
   width: 100%;
+  height: 650px;
   border-radius: 40px;
   
 }
 
 .text3 {
-  position: relative;
   margin-top: 20px;
   color: rgb(0, 0, 0);
   font-size: 30px;
@@ -307,7 +300,6 @@ nav ul li a:hover {
 }
 
 .undertext3 {
-  position: relative;
   margin-top: 10px;
   color: rgb(0, 0, 0);
   font-size: 13px;
@@ -325,8 +317,8 @@ justify-content: center;
 }
 
 .cont-walp1 img {
-width: 329px;
-height: 250px;
+width: 350px;
+height: 270px;
 margin: 5px;
 }
 
@@ -339,45 +331,56 @@ justify-content: center;
 }
 
 .cont-walp2 img {
-width: 329px;
-height: 250px;
+width: 350px;
+height: 270px;
 margin: 5px;
 }
+
 
 /* chapter 5 */
 
 .container5 {
-  
+  display: flex;
+  justify-content: center;
+  padding: 150px;
 }
   
 
-.container5 img {
-    
+.cont-photo5 img {
+  width: 520px;
+  height: 480px;
+  border-radius: 30px;
+  
+
   }
   
   .text5 {
+  margin-left: 20px;
   background-color: rgba(180,193,184,1);
   border-radius: 30px;
-  width: 33%;
-  padding: 20px;
+  width: 520px;
+  height: 480px;
+  
   }
   
 
 
   .text5 p {
+  padding-left: 20px;
   font-size: 40px;
   font-weight: bold;
-  
-  
   }
   
   .text5 i {
+  padding-left: 20px;
   font-style: normal;
   font-size: 15px;
+  
   }
   
   
   .text5 li {
+  padding-left: 20px;
   margin-top: 20px;
   font-weight: bold;
   }      
@@ -386,14 +389,15 @@ margin: 5px;
 
 /* chapter 6 */
 .container6 {
-
 width: 70%;
-
+margin: 0 auto;
+padding-bottom: 200px;
 }
 
 .container6 img {
-width: 100%;
-
+  width: 100%;
+  height: 650px;
+  border-radius: 30px;
 
 }
 
@@ -416,7 +420,9 @@ padding-bottom: 20px;
 }
 
 .container7 {
-
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 
